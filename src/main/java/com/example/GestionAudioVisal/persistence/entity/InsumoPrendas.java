@@ -7,7 +7,6 @@ import jakarta.persistence.*;
 public class InsumoPrenda {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int idInsumoPrenda;
     private int cantidad;
 
     @ManyToOne
@@ -18,20 +17,16 @@ public class InsumoPrenda {
     @JoinColumn(name = "idPrendaFk")
     private Prenda prenda;
 
-    public InsumoPrenda(int idInsumoPrenda, int cantidad, Insumo insumo, Prenda prenda) {
-        this.idInsumoPrenda = idInsumoPrenda;
+    public InsumoPrenda( int cantidad, Insumo insumo, Prenda prenda) {
         this.cantidad = cantidad;
         this.insumo = insumo;
         this.prenda = prenda;
     }
 
-    public int getIdInsumoPrenda() {
-        return idInsumoPrenda;
+    public InsumoPrenda() {
     }
 
-    public void setIdInsumoPrenda(int idInsumoPrenda) {
-        this.idInsumoPrenda = idInsumoPrenda;
-    }
+
 
     public int getCantidad() {
         return cantidad;
