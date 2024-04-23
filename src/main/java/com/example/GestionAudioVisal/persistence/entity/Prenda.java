@@ -37,7 +37,7 @@ public class Prenda {
     private List<DetalleOrden> detalleOrdenes;
 
     @OneToMany(mappedBy = "prenda")
-    private List<InsumoPrenda> insumosPrenda;
+    private List<InsumoPrendas> insumosPrenda;
     @ManyToMany
     @JoinTable(
             name = "prenda_color",
@@ -54,7 +54,7 @@ public class Prenda {
     private List<Insumo> insumos;
 
 
-    public Prenda(int idPrenda, String nombre, double valorUnitCop, double valorUnitUsd, String codigo, Estado estado, TipoProteccion tipoProteccion, Genero genero, List<Inventario> inventarios, List<DetalleVenta> detalleVentas, List<DetalleOrden> detalleOrdenes, List<InsumoPrenda> insumosPrenda) {
+    public Prenda(int idPrenda, String nombre, double valorUnitCop, double valorUnitUsd, String codigo, Estado estado, TipoProteccion tipoProteccion, Genero genero, List<Inventario> inventarios, List<DetalleVenta> detalleVentas, List<DetalleOrden> detalleOrdenes, List<InsumoPrendas> insumosPrenda) {
         this.idPrenda = idPrenda;
         this.nombre = nombre;
         this.valorUnitCop = valorUnitCop;
@@ -67,6 +67,9 @@ public class Prenda {
         this.detalleVentas = detalleVentas;
         this.detalleOrdenes = detalleOrdenes;
         this.insumosPrenda = insumosPrenda;
+    }
+
+    public Prenda() {
     }
 
     public int getIdPrenda() {
@@ -157,11 +160,11 @@ public class Prenda {
         this.detalleOrdenes = detalleOrdenes;
     }
 
-    public List<InsumoPrenda> getInsumosPrenda() {
+    public List<InsumoPrendas> getInsumosPrenda() {
         return insumosPrenda;
     }
 
-    public void setInsumosPrenda(List<InsumoPrenda> insumosPrenda) {
+    public void setInsumosPrenda(List<InsumoPrendas> insumosPrenda) {
         this.insumosPrenda = insumosPrenda;
     }
 }

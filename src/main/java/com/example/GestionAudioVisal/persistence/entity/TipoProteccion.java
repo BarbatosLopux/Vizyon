@@ -21,6 +21,9 @@ public class TipoProteccion {
         this.descripcion = descripcion;
     }
 
+    public TipoProteccion() {
+    }
+
     public int getIdTipoProteccion() {
         return idTipoProteccion;
     }

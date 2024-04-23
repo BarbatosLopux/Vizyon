@@ -21,6 +21,9 @@ public class Pais {
         this.departamentos = departamentos;
     }
 
+    public Pais() {
+    }
+
     public int getIdPais() {
         return idPais;
     }

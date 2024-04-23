@@ -16,6 +16,9 @@ public class Cargo {
     @OneToMany(mappedBy = "cargo")
     private List<Empleado> empleados;
 
+    public Cargo() {
+    }
+
     public Cargo(int idCargo, String descripcion, int sueldoBase, List<Empleado> empleados) {
         this.idCargo = idCargo;
         this.descripcion = descripcion;

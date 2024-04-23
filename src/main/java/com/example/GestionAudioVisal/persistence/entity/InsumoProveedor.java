@@ -23,6 +23,9 @@ public class InsumoProveedor {
         this.proveedor = proveedor;
     }
 
+    public InsumoProveedor() {
+    }
+
     public int getIdInsumoProveedor() {
         return idInsumoProveedor;
     }

@@ -26,9 +26,8 @@ public class Cliente {
         this.municipio = municipio;
     }
 
-
-
-
+    public Cliente() {
+    }
 
     public String getNombre() {
         return nombre;

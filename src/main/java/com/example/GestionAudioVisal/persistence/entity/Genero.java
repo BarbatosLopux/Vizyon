@@ -21,6 +21,9 @@ public class Genero {
         this.prendas = prendas;
     }
 
+    public Genero() {
+    }
+
     public int getIdGenero() {
         return idGenero;
     }

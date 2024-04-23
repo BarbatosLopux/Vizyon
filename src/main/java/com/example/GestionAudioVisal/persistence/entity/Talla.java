@@ -21,6 +21,9 @@ public class Talla {
         this.detallesVenta = detallesVenta;
     }
 
+    public Talla() {
+    }
+
     public int getIdTalla() {
         return idTalla;
     }

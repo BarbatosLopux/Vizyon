@@ -24,9 +24,8 @@ public class Departamento {
         this.pais = pais;
     }
 
-
-
-
+    public Departamento() {
+    }
 
     public String getNombre() {
         return nombre;

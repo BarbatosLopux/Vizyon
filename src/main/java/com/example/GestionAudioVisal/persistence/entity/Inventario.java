@@ -30,6 +30,9 @@ public class Inventario {
         this.inventarioTallas = inventarioTallas;
     }
 
+    public Inventario() {
+    }
+
     public int getIdInventario() {
         return idInventario;
     }

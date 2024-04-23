@@ -21,6 +21,9 @@ public class TipoEstado {
         this.estados = estados;
     }
 
+    public TipoEstado() {
+    }
+
     public int getIdTipoEstado() {
         return idTipoEstado;
     }

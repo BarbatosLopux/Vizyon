@@ -27,6 +27,9 @@ public class Proveedor {
         this.municipio = municipio;
     }
 
+    public Proveedor() {
+    }
+
     public int getIdProveedor() {
         return idProveedor;
     }

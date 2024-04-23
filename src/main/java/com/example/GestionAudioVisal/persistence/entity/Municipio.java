@@ -20,6 +20,9 @@ public class Municipio {
         this.departamento = departamento;
     }
 
+    public Municipio() {
+    }
+
     public int getIdMunicipio() {
         return idMunicipio;
     }

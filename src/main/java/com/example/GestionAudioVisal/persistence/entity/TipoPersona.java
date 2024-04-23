@@ -21,6 +21,9 @@ public class TipoPersona {
         this.clientes = clientes;
     }
 
+    public TipoPersona() {
+    }
+
     public String getNombre() {
         return nombre;
     }

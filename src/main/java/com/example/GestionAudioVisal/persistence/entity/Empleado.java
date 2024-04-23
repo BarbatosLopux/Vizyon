@@ -26,8 +26,8 @@ public class Empleado {
         this.municipio = municipio;
     }
 
-
-
+    public Empleado() {
+    }
 
     public String getNombre() {
         return nombre;

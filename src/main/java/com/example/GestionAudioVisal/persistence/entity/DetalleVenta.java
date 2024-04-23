@@ -30,8 +30,8 @@ public class DetalleVenta {
         this.talla = talla;
     }
 
-
-
+    public DetalleVenta() {
+    }
 
     public int getCantidad() {
         return cantidad;

@@ -36,6 +36,9 @@ public class Orden {
         this.detalleOrdenes = detalleOrdenes;
     }
 
+    public Orden() {
+    }
+
     public int getIdOrden() {
         return idOrden;
     }

@@ -23,6 +23,9 @@ public class InventarioTalla {
         this.talla = talla;
     }
 
+    public InventarioTalla() {
+    }
+
     public int getIdInvTalla() {
         return idInvTalla;
     }

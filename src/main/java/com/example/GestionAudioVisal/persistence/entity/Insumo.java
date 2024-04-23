@@ -26,7 +26,8 @@ public class Insumo {
         this.prendas = prendas;
     }
 
-
+    public Insumo() {
+    }
 
     public String getNombre() {
         return nombre;

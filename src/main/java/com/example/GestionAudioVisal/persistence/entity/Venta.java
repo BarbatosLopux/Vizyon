@@ -31,6 +31,9 @@ public class Venta {
         this.formaPago = formaPago;
     }
 
+    public Venta() {
+    }
+
     public int getIdVenta() {
         return idVenta;
     }

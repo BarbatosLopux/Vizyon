@@ -4,7 +4,7 @@ package com.example.GestionAudioVisal.persistence.entity;
 import jakarta.persistence.*;
 
 @Entity
-public class InsumoPrenda {
+public class InsumoPrendas {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int cantidad;
@@ -17,13 +17,13 @@ public class InsumoPrenda {
     @JoinColumn(name = "idPrendaFk")
     private Prenda prenda;
 
-    public InsumoPrenda( int cantidad, Insumo insumo, Prenda prenda) {
+    public InsumoPrendas( int cantidad, Insumo insumo, Prenda prenda) {
         this.cantidad = cantidad;
         this.insumo = insumo;
         this.prenda = prenda;
     }
 
-    public InsumoPrenda() {
+    public InsumoPrendas() {
     }
 
 

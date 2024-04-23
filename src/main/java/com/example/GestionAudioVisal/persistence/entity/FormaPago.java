@@ -20,6 +20,9 @@ public class FormaPago {
         this.ventas = ventas;
     }
 
+    public FormaPago() {
+    }
+
     public String getDescripcion() {
         return descripcion;
     }

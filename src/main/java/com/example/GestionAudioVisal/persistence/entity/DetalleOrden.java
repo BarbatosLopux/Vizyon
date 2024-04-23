@@ -35,7 +35,8 @@ public class DetalleOrden {
         this.estado = estado;
     }
 
-
+    public DetalleOrden() {
+    }
 
     public int getCantidadProducir() {
         return cantidadProducir;

@@ -18,8 +18,8 @@ public class Estado {
         this.tipoEstado = tipoEstado;
     }
 
-
-
+    public Estado() {
+    }
 
     public String getDescripcion() {
         return descripcion;

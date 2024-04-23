@@ -21,7 +21,8 @@ public class Color {
         this.prendas = prendas;
     }
 
-
+    public Color() {
+    }
 
     public String getDescripcion() {
         return descripcion;
